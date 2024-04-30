@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+
+        <RootNamespace>Attribinter.Semantic</RootNamespace>
+
+        <Title>Attribinter.Semantic.Named.DependencyInjection</Title>
+        <Description>Allows the services provided by 'Attribinter.Semantic.Named' to be registered with .NET DI-containers.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Attribinter.Parameters.Named.DependencyInjection" />
+
+        <ProjectReference Include="..\Attribinter.Semantic.Named\Attribinter.Semantic.Named.csproj" />
+    </ItemGroup>
+
+</Project>
