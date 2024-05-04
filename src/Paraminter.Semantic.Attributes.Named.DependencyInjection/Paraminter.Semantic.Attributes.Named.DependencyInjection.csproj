@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+
+        <RootNamespace>Paraminter.Semantic</RootNamespace>
+
+        <Title>Paraminter.Semantic.Attributes.Named.DependencyInjection</Title>
+        <Description>Allows the services provided by 'Paraminter.Semantic.Attributes.Named' to be registered with .NET DI-containers.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Paraminter.Parameters.Named.DependencyInjection" />
+
+        <ProjectReference Include="..\Paraminter.Semantic.Attributes.Named.Abstractions\Paraminter.Semantic.Attributes.Named.Abstractions.csproj" />
+        <ProjectReference Include="..\Paraminter.Semantic.Attributes.Named.Core\Paraminter.Semantic.Attributes.Named.Core.csproj" />
+        <ProjectReference Include="..\Paraminter.Semantic.Attributes.Named\Paraminter.Semantic.Attributes.Named.csproj" />
+    </ItemGroup>
+
+</Project>

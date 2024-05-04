@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+
+        <RootNamespace>Paraminter.Semantic</RootNamespace>
+
+        <Title>Paraminter.Semantic.Named</Title>
+        <Description>Semantically parses .NET attribute named arguments.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.CodeAnalysis.Common" />
+
+        <PackageReference Include="Paraminter.Core" />
+        <PackageReference Include="Paraminter.Parameters.Named.Abstractions" />
+
+        <ProjectReference Include="..\Paraminter.Semantic.Attributes.Named.Abstractions\Paraminter.Semantic.Attributes.Named.Abstractions.csproj" />
+        <ProjectReference Include="..\Paraminter.Semantic.Attributes.Named.Core\Paraminter.Semantic.Attributes.Named.Core.csproj" />
+    </ItemGroup>
+
+</Project>
