@@ -9,12 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		tests\.editorconfig = tests\.editorconfig
 		Directory.Build.props = Directory.Build.props
 		src\Directory.Build.props = src\Directory.Build.props
+		tests\Directory.Build.props = tests\Directory.Build.props
 		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraminter.Semantic.Attributes.Named.Core", "src\Paraminter.Semantic.Attributes.Named.Core\Paraminter.Semantic.Attributes.Named.Core.csproj", "{27C6613F-A52F-4066-99BF-C72681CEE124}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paraminter.Semantic.Attributes.Named.Core", "src\Paraminter.Semantic.Attributes.Named.Core\Paraminter.Semantic.Attributes.Named.Core.csproj", "{27C6613F-A52F-4066-99BF-C72681CEE124}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraminter.Semantic.Attributes.Named.Abstractions", "src\Paraminter.Semantic.Attributes.Named.Abstractions\Paraminter.Semantic.Attributes.Named.Abstractions.csproj", "{65804287-22D3-44F1-8F3E-1E54377C5417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paraminter.Semantic.Attributes.Named.Abstractions", "src\Paraminter.Semantic.Attributes.Named.Abstractions\Paraminter.Semantic.Attributes.Named.Abstractions.csproj", "{65804287-22D3-44F1-8F3E-1E54377C5417}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paraminter.Semantic.Attributes.Named", "src\Paraminter.Semantic.Attributes.Named\Paraminter.Semantic.Attributes.Named.csproj", "{1584140A-FFC9-4E34-8DFF-38ED7D8E632F}"
 EndProject
