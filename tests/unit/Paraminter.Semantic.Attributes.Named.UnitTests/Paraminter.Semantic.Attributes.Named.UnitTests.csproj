@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+
+        <RootNamespace>Paraminter.Semantic</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" />
+
+        <PackageReference Include="Moq" />
+
+        <PackageReference Include="Paraminter.Tests.Common" />
+
+        <PackageReference Include="xunit" />
+        <PackageReference Include="xunit.runner.visualstudio" />
+
+        <ProjectReference Include="..\..\..\src\Paraminter.Semantic.Attributes.Named.Abstractions\Paraminter.Semantic.Attributes.Named.Abstractions.csproj" />
+        <ProjectReference Include="..\..\..\src\Paraminter.Semantic.Attributes.Named.Core\Paraminter.Semantic.Attributes.Named.Core.csproj" />
+        <ProjectReference Include="..\..\..\src\Paraminter.Semantic.Attributes.Named\Paraminter.Semantic.Attributes.Named.csproj" />
+    </ItemGroup>
+
+</Project>

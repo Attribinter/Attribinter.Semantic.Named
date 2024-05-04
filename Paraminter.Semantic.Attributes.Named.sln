@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF31DF62-69CD-4A0A-9D5A-E478B5851BA5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		tests\.editorconfig = tests\.editorconfig
+		Directory.Build.props = Directory.Build.props
+		src\Directory.Build.props = src\Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraminter.Semantic.Attributes.Named.Core", "src\Paraminter.Semantic.Attributes.Named.Core\Paraminter.Semantic.Attributes.Named.Core.csproj", "{27C6613F-A52F-4066-99BF-C72681CEE124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraminter.Semantic.Attributes.Named.Abstractions", "src\Paraminter.Semantic.Attributes.Named.Abstractions\Paraminter.Semantic.Attributes.Named.Abstractions.csproj", "{65804287-22D3-44F1-8F3E-1E54377C5417}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paraminter.Semantic.Attributes.Named", "src\Paraminter.Semantic.Attributes.Named\Paraminter.Semantic.Attributes.Named.csproj", "{1584140A-FFC9-4E34-8DFF-38ED7D8E632F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paraminter.Semantic.Attributes.Named.DependencyInjection", "src\Paraminter.Semantic.Attributes.Named.DependencyInjection\Paraminter.Semantic.Attributes.Named.DependencyInjection.csproj", "{6F018AC6-3BCF-4382-BC80-0952353F9DA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paraminter.Semantic.Attributes.Named.IntegrationTests", "tests\integration\Paraminter.Semantic.Attributes.Named.IntegrationTests\Paraminter.Semantic.Attributes.Named.IntegrationTests.csproj", "{F4C747FC-0AD2-4CF1-A375-6438060BD44F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paraminter.Semantic.Attributes.Named.UnitTests", "tests\unit\Paraminter.Semantic.Attributes.Named.UnitTests\Paraminter.Semantic.Attributes.Named.UnitTests.csproj", "{5878DB0A-9479-4E2F-842F-06DB219722A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27C6613F-A52F-4066-99BF-C72681CEE124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C6613F-A52F-4066-99BF-C72681CEE124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C6613F-A52F-4066-99BF-C72681CEE124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C6613F-A52F-4066-99BF-C72681CEE124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65804287-22D3-44F1-8F3E-1E54377C5417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65804287-22D3-44F1-8F3E-1E54377C5417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65804287-22D3-44F1-8F3E-1E54377C5417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65804287-22D3-44F1-8F3E-1E54377C5417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1584140A-FFC9-4E34-8DFF-38ED7D8E632F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1584140A-FFC9-4E34-8DFF-38ED7D8E632F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1584140A-FFC9-4E34-8DFF-38ED7D8E632F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1584140A-FFC9-4E34-8DFF-38ED7D8E632F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F018AC6-3BCF-4382-BC80-0952353F9DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F018AC6-3BCF-4382-BC80-0952353F9DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F018AC6-3BCF-4382-BC80-0952353F9DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F018AC6-3BCF-4382-BC80-0952353F9DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C747FC-0AD2-4CF1-A375-6438060BD44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C747FC-0AD2-4CF1-A375-6438060BD44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C747FC-0AD2-4CF1-A375-6438060BD44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C747FC-0AD2-4CF1-A375-6438060BD44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5878DB0A-9479-4E2F-842F-06DB219722A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5878DB0A-9479-4E2F-842F-06DB219722A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5878DB0A-9479-4E2F-842F-06DB219722A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5878DB0A-9479-4E2F-842F-06DB219722A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {769B573D-4E00-470B-98C1-CE2A2FB907FE}
+	EndGlobalSection
+EndGlobal

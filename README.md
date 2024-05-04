@@ -1,12 +1,5 @@
-# Attribinter.Semantic.Named
+# Paraminter.Semantic.Attributes.Named
 
-Semantically parses named arguments of .NET attributes.
+Semantically parses .NET attributes mamed arguments.
 
-See [Attribinter](https://www.github.com/Attribinter/Attribinter) for more information.
-
-## NuGet
-
-The repository publishes the following NuGet packages:
-
-* [Attribinter.Semantic.Named](https://www.nuget.org/packages/Attribinter.Semantic.Named/)
-* [Attribinter.Semantic.Named.DependencyInjection](https://www.nuget.org/packages/Attribinter.Semantic.Named.DependencyInjection/)
+See [Paraminter](https://www.github.com/Paraminter/Paraminter) for more information.
