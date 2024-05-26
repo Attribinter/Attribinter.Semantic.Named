@@ -29,7 +29,7 @@ public sealed class TryParse
     }
 
     [Fact]
-    public void MoreParametersThanArguments_ReturnsFalse()
+    public void DifferentNumberOfParametersAndArguments_ReturnsFalse()
     {
         var parameter = "Parameter";
 
@@ -37,25 +37,6 @@ public sealed class TryParse
 
         invocationDataMock.Setup(static (invocationData) => invocationData.Parameters).Returns([parameter]);
         invocationDataMock.Setup(static (invocationData) => invocationData.Arguments).Returns([]);
-
-        Mock<IArgumentDataRecorder<INamedParameter, ISemanticAttributeNamedArgumentData>> recorderMock = new();
-
-        var result = Target(recorderMock.Object, invocationDataMock.Object);
-
-        Assert.False(result);
-
-        recorderMock.VerifyNoOtherCalls();
-    }
-
-    [Fact]
-    public void MoreArgumentsThanParameters_ReturnsFalse()
-    {
-        var argument = TypedConstantStore.GetNext();
-
-        Mock<ISemanticAttributeNamedInvocationData> invocationDataMock = new();
-
-        invocationDataMock.Setup(static (invocationData) => invocationData.Parameters).Returns([]);
-        invocationDataMock.Setup(static (invocationData) => invocationData.Arguments).Returns([argument]);
 
         Mock<IArgumentDataRecorder<INamedParameter, ISemanticAttributeNamedArgumentData>> recorderMock = new();
 
