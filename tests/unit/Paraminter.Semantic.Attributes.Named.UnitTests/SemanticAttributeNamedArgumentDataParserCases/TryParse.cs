@@ -10,6 +10,8 @@ using Xunit;
 
 public sealed class TryParse
 {
+    private readonly IParserFixture Fixture = ParserFixtureFactory.Create();
+
     [Fact]
     public void NullRecorder_ThrowsArgumentNullException()
     {
@@ -149,6 +151,4 @@ public sealed class TryParse
     }
 
     private bool Target(IArgumentDataRecorder<INamedParameter, ISemanticAttributeNamedArgumentData> recorder, ISemanticAttributeNamedInvocationData invocationData) => Fixture.Sut.TryParse(recorder, invocationData);
-
-    private readonly IParserFixture Fixture = ParserFixtureFactory.Create();
 }
